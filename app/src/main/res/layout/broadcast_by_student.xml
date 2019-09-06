@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FDFEFE">
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1st YEAR"
+        android:textColor="#000000"
+        android:id="@+id/studentCB1stYear"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2nd YEAR"
+        android:textColor="#000000"
+        android:id="@+id/studentCB2ndYear"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3rd YEAR"
+        android:textColor="#000000"
+        android:id="@+id/studentCB3rdYear"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4th YEAR"
+        android:textColor="#000000"
+        android:id="@+id/studentCB4thYear"
+        />
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/studentBroadcast"
+        android:hint="CREATE YOUR BROADCAST"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="16dp"
+        android:text="SEND"
+        android:id="@+id/sendBroadcastStudent"/>
+
+
+
+</LinearLayout>

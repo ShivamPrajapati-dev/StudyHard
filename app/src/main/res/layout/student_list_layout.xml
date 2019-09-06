@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/studentListLayout"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+    <TextView
+        android:id="@+id/StudentNameinList"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="21dp"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/StudentBranchInList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="49dp"
+        android:text="BRANCH"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/studentYearInList"
+        android:layout_width="51dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="68dp"
+        android:text="YEAR"
+        android:textSize="10dp"/>
+</RelativeLayout>

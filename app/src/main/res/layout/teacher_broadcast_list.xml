@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/teacherBroadcastList">
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:id="@+id/broadCastCreatorNameTeacher"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:background="#FDFEFE"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="broadcast"
+                android:gravity="center"
+                android:id="@+id/broadcastContentTeacher"
+                android:layout_below="@id/broadCastCreatorNameTeacher"
+                android:textSize="20dp"
+                android:background="#FDFEFE"
+                android:textColor="#17202A"
+                android:textStyle="normal"/>
+        </RelativeLayout>
+
+
+    </android.support.design.card.MaterialCardView>
+
+</RelativeLayout>
